@@ -10,7 +10,7 @@ def divide(a, b):
     return a / b
 def power(a, b):
     return a ** b
-def sqroot(a):
+def sqrt(a):
     if a < 0:
         raise ValueError("Cannot take the square root of a negative number.")
     return a ** 0.5
@@ -45,7 +45,7 @@ while True:
     elif choice == '6':
         num = float(input("Enter number: "))
         try:
-            print(f"√{num} = {sqroot(num)}")
+            print(f"√{num} = {sqrt(num)}")
         except ValueError as e:
             print(e)
     elif choice == '7':
@@ -54,3 +54,4 @@ while True:
     else:
 
         print("Invalid input")
+
