@@ -18,7 +18,7 @@ def sqrt(a):
 print("Welcome to Calculator App")
 while True:
     print("Select operation:")
-    print("1. Add")         
+    print("1. Addition")         
     print("2. Subtract")
     print("3. Multiply")
     print("4. Divide")
@@ -54,4 +54,5 @@ while True:
     else:
 
         print("Invalid input")
+
 
